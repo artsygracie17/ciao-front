@@ -52,9 +52,14 @@ p {
 
 .feed-nav {
     margin-top: 100px;
-    margin-left: 300px;
 }
-
+#categories, #friends, #trends {
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
 .wrapper {
     /*background: rgba(250, 207, 35, 0.55); */
     background:  white;
