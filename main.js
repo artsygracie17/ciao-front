@@ -1,16 +1,18 @@
 $(document).ready(function() {
-	//$('.categories').hide();
 
-
-	function main() {
-		window.location.replace('main.html');
-	}
+	//start with just trends showing
+	$('.friends').hide();
+	$('.categories').hide();
 
 	$('#trends').click(function() {
 		//alert('trends clicked');
 		$('#trends').addClass('active');
-		$('#friends').removeClass('active');
+		$('#friends').removeClass('active');		
 		$('#categories').removeClass('active');
+
+		$('.friends').hide();
+		$('.categories').hide();
+		$('.trends').show();
 
 
 	})
@@ -21,6 +23,10 @@ $(document).ready(function() {
 		$('#categories').removeClass('active');
 		$('#trends').removeClass('active');
 
+		$('.trends').hide();
+		$('.categories').hide();
+		$('.friends').show();
+
 
 	})
 
@@ -29,6 +35,11 @@ $(document).ready(function() {
 		$('#categories').addClass('active');
 		$('#trends').removeClass('active');
 		$('#friends').removeClass('active');
+
+		$('.friends').hide();
+		$('.trends').hide();
+		$('.categories').show();
+
 	})
 
 

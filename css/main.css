@@ -41,13 +41,21 @@
 }
 h1 {
     margin-top: 140px;
+    margin-bottom: 40px;
     text-align: center;
     font-weight: lighter;
     letter-spacing: 2px;
 }
 p { 
+    margin-top: 5px;
     letter-spacing: 2px;
     font-weight: lighter;
+    text-align: center;
+    color: #337ab7;
+}
+p span {
+    background-color: rgba(162, 250, 248, 0.38);
+
 }
 
 .feed-nav {
@@ -86,6 +94,20 @@ p {
     margin-top: 10px;
     margin-left: 2px;
     margin-right: 2px;
+    min-height: 80px;
+    min-width: 80px;
+    cursor: pointer;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:top;
+}
+.vicinity {
+    text-align: center;
+}
+.vicinity img {
+    margin: 30px;
+    margin-left: 40px;
     min-height: 80px;
     min-width: 80px;
     cursor: pointer;
