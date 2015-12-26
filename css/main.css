@@ -13,12 +13,17 @@
 .logo {
     width: 45px;
     height: 45px;
+    /*position: fixed;*/
+    /*margin-left: 400px;*/
     margin: 10px;
-    margin-top: -60px;
+    float: right;
+    margin-top: 2px;
 }
-#main {
-    position: fixed; top: 10px; right: 40px
-}
+
+
+/*#main {
+    position: fixed; top: 10px; right: 130px
+}*/
 .glyphicon {
     /*float: right;*/
     font-size: 25px;
@@ -26,19 +31,33 @@
 }
 #filter {
     background-color: transparent;
-    margin-left: 50px;
+    margin-right: -5px;
+}
+.dropdown {
+    float: right;
 }
 .dropdown-menu {
     width: 250px;
 }
 h1 {
-    margin-top: 70px;
+    margin-top: 140px;
     text-align: center;
     font-weight: lighter;
     letter-spacing: 2px;
 }
+p { 
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.feed-nav {
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
 .wrapper {
-    background:#EFEFEF; 
+    /*background: rgba(250, 207, 35, 0.55); */
+    background:  white;
     box-shadow: 1px 1px 10px #999; 
     margin: auto; 
     text-align: center; 

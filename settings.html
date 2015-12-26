@@ -1,77 +1,34 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title> Settings </title>
-	</head>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	 <head lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=width-device-width, initial-scale=1">
+        <title>Settings</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/settings.css" rel="stylesheet">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="settings.js"></script>
+    </head>
 
-	<style>
-		.header {
-		    width: 100%;
-		    height: 50px;
-		    position: fixed;
-		    top: 0px;
-		    background-color: rgba(162, 250, 248, 0.38);
-		    z-index: 2;
-		}
-		.dropdown-menu {
-		    width: 100px;
-		}
-
-		.logo {
-		    width: 45px;
-		    height: 45px;
-		    margin: 10px;
-		    margin-top: -60px;
-		}
-
-		.glyphicon {
-		    /*float: right;*/
-		    font-size: 25px;
-		    margin: 10px;
-		}
-		#filter {
-		    background-color: transparent;
-		    margin-left: 50px;
-		}
-		.dropdown-menu {
-		    width: 250px;
-		}
-		h1 {
-		    margin-top: 70px;
-		    text-align: center;
-		    font-weight: lighter;
-		    letter-spacing: 2px;
-		}
-
-	</style>
-
-	<body>
-		<div class='header'>
+    <body>
+    	<div class='header'>
             <!-- <button type='button' class='btn btn-link' onclick="window.location.replace('settings.html')"><span class='glyphicon glyphicon-cog' aria-hidden='true'></span></button> -->
 
-            <a href='settings.html' style='float: right'><span class='glyphicon glyphicon-cog' aria-hidden='true'></span></a>
-            <a href='profile.html' style='float: right'><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
-            <a href='messages.html' style='float: right'><span class='glyphicon glyphicon-comment' aria-hidden='true'></span></a>
+
+            <a href='settings.html'><span class='glyphicon glyphicon-cog' aria-hidden='true'></span></a>
+            <a href='messages.html'><span class='glyphicon glyphicon-comment' aria-hidden='true'></span></a>
+            <a href='profile.html'><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+            <!-- <span class='glyphicon glyphicon-globe' aria-hidden='true'></span> -->
             <a href='main.html'><span class='glyphicon glyphicon-globe' aria-hidden='true'></span></a>
 
-            <div class="dropdown">
-              <button class="btn btn-secondary btn-xs dropdown-toggle" type="button" id="filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-
-                <span class='glyphicon glyphicon-filter' aria-hidden='true'></span>
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="filter">
-                <li><a href="#">Age slide here</a></li>
-                <li><a href="#">Interest selection here</a></li>
-                <li><a href="#">Distance range here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Something else here</a></li>
-              </ul>
-            </div>
 
             <img class='logo' src='ciao-logo.png'>
-    	</div>
 
-		<h1> Change your settings here</h1>
-	</body>
+
+            <h1> Settings </h1>
+
+    	</div>
+   	</body>
 </html>

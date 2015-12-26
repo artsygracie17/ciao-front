@@ -16,17 +16,23 @@
     	<div class='header'>
             <!-- <button type='button' class='btn btn-link' onclick="window.location.replace('settings.html')"><span class='glyphicon glyphicon-cog' aria-hidden='true'></span></button> -->
 
-            <a href='settings.html' style='float: right'><span class='glyphicon glyphicon-cog' aria-hidden='true'></span></a>
-            <a href='profile.html' style='float: right'><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
-            <a href='messages.html' style='float: right'><span class='glyphicon glyphicon-comment' aria-hidden='true'></span></a>
-            <a href='main.html' id='main'><span class='glyphicon glyphicon-globe' aria-hidden='true'></span></a>
+
+            <a href='settings.html'><span class='glyphicon glyphicon-cog' aria-hidden='true'></span></a>
+            <a href='messages.html'><span class='glyphicon glyphicon-comment' aria-hidden='true'></span></a>
+            <a href='profile.html'><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+            <!-- <span class='glyphicon glyphicon-globe' aria-hidden='true'></span> -->
+            <a href='main.html'><span class='glyphicon glyphicon-globe' aria-hidden='true'></span></a>
+
+
+            <img class='logo' src='ciao-logo.png'>
+
 
             <div class="dropdown">
               <button class="btn btn-secondary btn-xs dropdown-toggle" type="button" id="filter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 
                 <span class='glyphicon glyphicon-filter' aria-hidden='true'></span>
               </button>
-              <ul class="dropdown-menu" aria-labelledby="filter">
+              <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="filter">
                 <li><a href="#">Age slide here</a></li>
                 <li><a href="#">Interest selection here</a></li>
                 <li><a href="#">Distance range here</a></li>
@@ -35,15 +41,24 @@
               </ul>
             </div>
 
-            <img class='logo' src='ciao-logo.png'>
     	</div>
 
-        <div class='categories'>
+        <div class='feed'>
+          <div class='feed-nav'>
+            <ul class="nav nav-pills">
+              <li role="presentation" id='categories'><a href="#">Categories</a></li>
+              <li role="presentation" id='friends'><a href="#">Friends</a></li>
+              <li role="presentation" id='trends'><a href="#">Trends</a></li>
+            </ul>
+          </div>
             <h1> Categories </h1>
+
             <div class="wrapper">
+
                 <p> Academics </p>
+            <!-- <span class='glyphicon glyphicon-menu-left' aria-hidden='true'></span> -->
+
               <div class="scrolls">
-                   <!-- <img src="ciao-logo.jpg"> -->
                    <img src="http://placehold.it/50x50" >
                    <img src="http://placehold.it/50x50" />
                    <img src="http://placehold.it/50x50" />
