@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=width-device-width, initial-scale=1">
+        <title>CiaoConncect</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/ciao.css" rel="stylesheet">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="ciao.js"></script>
+    </head>
+    <body>
+
+        <div class="side-nav" role="navigation">
+            <ul class="nav-side-nav">
+                <li><a class="tooltip-side-nav" href="#page1"></a></li>
+                <li><a class="tooltip-side-nav" href="#page2"></a></li>
+                <li><a class="tooltip-side-nav" href="#page3"></a></li>
+            </ul>
+        </div>
+
+        <div class="page1"  id="page1" style="background-image: url('2.jpg')">
+
+            <div class="dropdown" style='left: 20px'>
+              <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style='left: 20px'>
+                Login<span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-left">
+                <div class="input-group">
+                    <input type="text" class="form-control user" placeholder="Username" aria-describedby="sizing-addon1">
+                    <input type="text" class="form-control pass" placeholder="Password" aria-describedby="sizing-addon1">
+                    <button type="button" class="btn btn-info go" onclick="location.href='main.html'">Go!</button>
+				</div>
+              </ul>
+            </div>
+
+
+            <div class="container title">
+                <img src="ciao-logo.png">
+                <p>Welcome to Ciao!</p>
+          
+            </div>
+
+
+            <!-- <div class="btn-group-collapse">
+                <a class="btn btn-ciao" href="#login"><span class="glyphicon glyphicon-log-in"></span> Log In</a>
+                <a class="btn btn-ciao" href="#signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+            </div> -->
+        </div> <!-- end page1 -->
+
+        <div class="container" id="page2">
+            <div class="row">
+                <div class="col-md-4 align-center">
+                    <h1>Connect</h1>
+                    <br><br>
+                    <img src="connect.png" class="img-responsive img-circle">
+                    <br>
+                    <p style="font-size: 140%"> Connect with people around you based on common interests </p>
+                </div>
+
+                <div class="col-md-4 align-center">
+                    <h1>Chat</h1>
+                    <br><br>
+                    <img src="chat.png" class="img-responsive img-rounded">
+                    <br><br><br>
+                    <p style="font-size: 140%"> Chat with your matches instantly </p>
+                </div>
+
+                <div class="col-md-4 align-center">
+                    <h1>Chill</h1>
+                    <br><br>
+                    <img src="chill.png" class="img-responsive img-circle">
+                    <br><br>
+                    <p style="font-size: 140%"> Meet up and chill with your new connections </p>
+
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        <!-- <div class="container page2" id="page3">
+            <h1 class="page-header" id="login">Log In</h1>
+            <form>
+                <div class="form-group">
+                    <label>Username</label>
+                    <input class="form-control username" type="text" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input class="form-control password" type="password" placeholder="Password">
+                </div>
+                <a class="btn btn-ciao btn-lg" type="submit"><span class="glyphicon glyphicon-log-in"></span> Log In</a>
+            </form>
+            <h1 class="page-header" id="signup">Sign Up</h1>
+            <form>
+                <div class="form-group">
+                    <label>Firstname</label>
+                    <input class="form-control firstname" type="text" placeholder="Firstname">
+                </div>
+                <div class="form-group">
+                    <label>Lastname</label>
+                    <input class="form-control lastname" type="text" placeholder="Lastname">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input class="form-control email" type="email" placeholder="Email">
+                </div>
+                <a class="btn btn-ciao btn-lg" type="submit"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+            </form> -->
+        </div>
+    </body>
+    <footer>
+        <div class="align-center">
+            <strong>&copy; Ciao Inc. 2015</strong>
+        </br>
+            <span><small>Made with <code>love</code> at HackUmass III</small></span>
+        </div>
+    </footer>
+</html>
