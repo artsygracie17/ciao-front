@@ -102,10 +102,10 @@ p span {
     *zoom:1;
     vertical-align:top;
 }
-.vicinity {
+.vicinity, .newsfeed-friends {
     text-align: center;
 }
-.vicinity img {
+.vicinity img, .newsfeed-friends img {
     margin: 30px;
     margin-left: 40px;
     min-height: 80px;

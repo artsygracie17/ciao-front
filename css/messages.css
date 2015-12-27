@@ -45,3 +45,8 @@ h1 {
     font-weight: lighter;
     letter-spacing: 2px;
 }
+.names {
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 200px;
+}
