@@ -42,6 +42,7 @@
   background:none;
   border:none;
   box-shadow:none;
+  float: right;
 }
 .input-group {
   padding-right: 10px;
@@ -65,8 +66,8 @@
   display: inline-block;
   /*margin-top: 30px;*/
   /*margin-top: 10px;*/
-  margin-top: -5px;
-  margin-left: 20px;
+  margin-top: -15px;
+  margin-left: 15px;
   margin-right: 20px;
 }
 
