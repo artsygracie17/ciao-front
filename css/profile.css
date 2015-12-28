@@ -41,7 +41,55 @@
 }
 h1 {
     margin-top: 140px;
+    margin-bottom: 40px;
     text-align: center;
     font-weight: lighter;
     letter-spacing: 2px;
 }
+img {
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 60%;
+    height: 60%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #999; 
+
+}
+#name {
+    margin-left: 60px;
+    font-size: 30px;
+    /*color: #337ab7;*/
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#sex { display: inline-block;}
+.sex {
+    display: inline-block;
+    width: 50%;
+    margin-left: 20px;
+}
+#age { display: inline-block;}
+.age {
+    display: inline-block;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.bio {
+    margin-top: 10px;
+    width: 80%;
+}
+li {
+    margin: 7px;
+}
+.save {
+    float: right;
+    margin-top: 95px;
+    margin-right: 80px;
+}
+
+
+
+

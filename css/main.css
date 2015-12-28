@@ -106,6 +106,8 @@ p {
     width: 200px;
     height: 300px;
     background-color: #EBEFF0;
+    box-shadow: 1px 1px 10px #999; 
+
     margin: 30px;
     margin-left: 40px;
     min-height: 80px;
@@ -138,7 +140,7 @@ p {
 .vicinity, .newsfeed-friends {
     text-align: center;
 }
-.vicinity img, .newsfeed-friends img {
+/*.vicinity img, .newsfeed-friends img {
     margin: 30px;
     margin-left: 40px;
     min-height: 80px;
@@ -148,5 +150,5 @@ p {
     *display:inline;
     *zoom:1;
     vertical-align:top;
-}
+}*/
 
