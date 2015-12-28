@@ -42,5 +42,18 @@ $(document).ready(function() {
 
 	})
 
+	// $('.range-slider').jRange({
+	//     from: 18,
+	//     to: 100,
+	//     step: 1,
+	//     format: '%s',
+	//     width: 100,
+	//     showLabels: true,
+	//     isRange : true
+	// });
+
+
+
+
 
 })
