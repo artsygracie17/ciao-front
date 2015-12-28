@@ -9,7 +9,7 @@
         <link href="css/messages.css" rel="stylesheet">
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="messages.js"></script>
+        <script src="js/messages.js"></script>
     </head>
 
     <body>
@@ -27,27 +27,54 @@
             <img class='logo' src='ciao-logo.png'>
 
 
+            <!-- these will be created as the user sends/is sent a message -->
             <h1> Your Messages </h1>
-            <div class='messages'>
-                <ul class="nav nav-tabs nav-stacked">
-                    <li role="presentation" class="active">
-                        <a href="#">Gwendolyn Zhang</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#">Henry Brinland</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#">Maria Postacchini</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#">Giovanni dell'Orso</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#">Giulia Antoinetta</a>
-                    </li>
-                 
-                </ul>
-            </div> 
+
+            <div class='container-fluid'> 
+                <div class='col-md-5 names'>
+                    <ul class="nav nav-tabs nav-stacked">
+                        <li role="presentation" class='name' class="active">
+                            <a class='named' href="#">Gwendolyn Zhang</a>
+                        </li>
+                        <li role="presentation" class='name' >
+                            <a class='named' href="#">Henry Brinland</a>
+                        </li>
+                        <li role="presentation" class='name' >
+                            <a class='named' href="#">Maria Postacchini</a>
+                        </li>
+                        <li role="presentation" class='name' >
+                            <a class-'named' href="#">Giovanni dell'Orso</a>
+                        </li>
+                        <li role="presentation" class='name' >
+                            <a class='named' href="#">Giulia Antoinetta</a>
+                        </li>
+                     
+                    </ul>
+                </div> 
+
+                <div class='col-md-7 messages'> 
+                    <h5 id='name-of-person'> Name of Person </h5>
+                    <div class='them'><p> Them </p></div>
+                    <div class='me'><p class='mee'> Me </p></div>
+                    <div class='them'><p> Them </p></div>
+                    <div class='me'><p class='mee'> Me </p></div>
+                    <div class='them'><p> Them </p></div>
+                    <div class='me'><p class='mee'> Me </p></div>
+                    <div class='them'><p> Them</p></div>
+                </div>
+                <!-- <div class='row'> -->
+                    
+                    <div class='col-md-7 input-line'>
+                        <input type="text" class="form-control response" placeholder="Type your message here">
+                        <button type='button' class='btn btn-primary'>Send</button>
+                    </div>
+                <!-- </div> -->
+
+            </div>
+            
+
+            
+
 
             
     	</div>
