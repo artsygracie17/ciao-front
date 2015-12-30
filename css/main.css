@@ -85,7 +85,7 @@ p {
 .scrolls { 
     overflow-x: scroll;
     overflow-y: hidden;
-    height: 150px;
+    height: 300px;
     white-space:nowrap;
     background-color: #EBEFF0;
 } 
@@ -107,7 +107,6 @@ p {
     height: 300px;
     background-color: #EBEFF0;
     box-shadow: 1px 1px 10px #999; 
-
     margin: 30px;
     margin-left: 40px;
     min-height: 80px;
@@ -120,13 +119,13 @@ p {
     border-radius: 5px;
 }
 .placeholder-category {
-    width: 70px;
-    height: 120px;
+    width: 160px;
+    height: 240px;
     border-radius: 5px;
     box-shadow: 1px 1px 10px #999; 
-    margin-top: 15px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
     min-height: 100px;
     min-width: 80px;
     cursor: pointer;
@@ -151,6 +150,14 @@ p {
     *zoom:1;
     vertical-align:top;
 }*/
-
+.placeholder img, .placeholder-category img {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
 
 
