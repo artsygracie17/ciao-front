@@ -47,7 +47,7 @@ $(document).ready(function() {
 	$('#add-event').click(function() {
 		bootbox.dialog({
 		  message: "When is your event?",
-		  title: "Add Event",
+		  title: "Create New Event",
 		  buttons: {
 		    main: {
 		      label: "Publish!",
@@ -58,13 +58,13 @@ $(document).ready(function() {
 		});
 		
 		$('.bootbox-body').append('<input type="text" id="datepicker">');
-		$('.bootbox-body').addClass('input-group');
+		$('.bootbox-body').append('<div class="input-group"></div>');
 		$('.input-group').append('<input type="text" class="form-control event-name" placeholder="Name of Event" aria-describedby="sizing-addon1">');
 		$('.bootbox-body').append(' <textarea class="form-control event-description" rows="6" placeholder="Add a short description of your event!"></textarea>');
 
 		$(function() {
 	        $( "#datepicker" ).datepicker();
-	    });
+	     });
 	})
 
 	
