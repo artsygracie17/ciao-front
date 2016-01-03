@@ -57,15 +57,14 @@ $(document).ready(function() {
 		  }
 		});
 		
-		// $('.bootbox-body').append('<select class="form-control day"></select>');
+		$('.bootbox-body').append('<input type="text" id="datepicker">');
 		$('.bootbox-body').addClass('input-group');
 		$('.input-group').append('<input type="text" class="form-control event-name" placeholder="Name of Event" aria-describedby="sizing-addon1">');
 		$('.bootbox-body').append(' <textarea class="form-control event-description" rows="6" placeholder="Add a short description of your event!"></textarea>');
 
-		// for(var i=1; i<31; i++) {
-		// 	var day = i.toString();
-		// 	$('.day').append("<option value=" + day + ">" + day + "</option>");
-		// }
+		$(function() {
+	        $( "#datepicker" ).datepicker();
+	    });
 	})
 
 	
