@@ -78,7 +78,7 @@ h3 {
     margin-top: 10px;
     width: 80%;
 }
-li {
+li .activity {
     margin: 7px;
 }
 .save {

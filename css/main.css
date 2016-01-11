@@ -6,24 +6,16 @@
     background-color: rgba(162, 250, 248, 0.38);
     z-index: 2;
 }
-.dropdown-menu {
-    width: 100px;
-}
 
 .logo {
     width: 45px;
     height: 45px;
-    /*position: fixed;*/
-    /*margin-left: 400px;*/
     margin: 10px;
     float: right;
     margin-top: 2px;
 }
 
 
-/*#main {
-    position: fixed; top: 10px; right: 130px
-}*/
 .glyphicon {
     /*float: right;*/
     font-size: 25px;

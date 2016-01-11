@@ -27,7 +27,10 @@
 
 .feed-nav {
     margin-top: 100px;
-    margin-bottom: 100px;
+}
+
+.nav .nav-pills .nav-justified {
+    margin-top: 100px;
 }
 #con-reqs, #event-reqs, #notifs {
     margin-right: 40px;
