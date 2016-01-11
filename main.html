@@ -22,6 +22,37 @@
         <script src="js/bootbox.min.js"></script>
 
         <script src="js/main.js"></script>
+
+        <script>
+          $(function() {
+            $( "#age-range" ).slider({
+              range: true,
+              min: 18,
+              max: 30,
+              values: [ 20, 24 ],
+              slide: function( event, ui ) {
+                $( "#years" ).val(ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+              }
+            });
+            $( "#years" ).val($( "#age-range" ).slider( "values", 0 ) +
+              " - " + $( "#age-range" ).slider( "values", 1 ) );
+          });
+
+          $(function() {
+            $( "#dist-slider" ).slider({
+              value:25,
+              min: 5,
+              max: 100,
+              step: 5,
+              slide: function( event, ui ) {
+                $( "#dist" ).val(ui.value );
+              }
+            });
+            $( "#dist" ).val($( "#dist-slider" ).slider( "value" ) );
+          });
+
+      </script>
+
     </head>
       
 
@@ -49,11 +80,30 @@
                 <span class='glyphicon glyphicon-filter' aria-hidden='true'></span>
               </button>
               <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="filter">
-                <li><a href="#">Age slide here</a></li>
+
+                <!-- <li><a href="#">Age slide here</a></li>
                 <li><a href="#">Interest selection here</a></li>
                 <li><a href="#">Distance range here</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="#">Something else here</a></li>
+               -->
+               
+              <p>
+                <label for="years">Age range:</label>
+                <input class='age-label' type="text" id="years" readonly style="border:0; color:#f6931f; font-weight:bold; text-align: center; ">
+              </p>
+              <div id="age-range"></div>
+
+              <br>
+              <p>
+                <input type="text" id="dist" readonly style="border:0; color:#f6931f; font-weight:bold; margin-bottom: -30px">
+                <label class='dist-label' for="dist">miles from you </label>
+                
+              </p>
+
+              <div id="dist-slider"></div>
+              <br>
+
               </ul>
             </div> <!-- end filter -->
 

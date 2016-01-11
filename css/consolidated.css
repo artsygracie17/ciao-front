@@ -171,6 +171,21 @@ small {
 }
 .dropdown-menu {
     width: 250px;
+    padding: 20px;
+}
+#dist {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.dist-label {
+  text-align: right;
+  clear: both;
+  float:left;
+  margin-left: 48px;
+}
+#dist-slider {
+  margin-top: 40px;
 }
 .dialog-body {
     display: none;
@@ -340,6 +355,16 @@ h5 {
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: right;
+}
+.msg { 
+    margin-top: 0px;
+    letter-spacing: 0px;
+    /*font-weight: lighter;*/
+    text-align: none;
+    color: #337ab7;
+    /*color: rgba(162, 250, 248, 0.38);*/
+    outline-color: #337ab7;
+    font-size: 16px;
 }
 .input-line {
     /*float: right;*/
