@@ -1,3 +1,7 @@
+.time-start {
+  z-index: 5;
+}
+
 /* ciao.css */
 .side-nav{
   position: fixed;

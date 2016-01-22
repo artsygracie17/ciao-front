@@ -90,24 +90,23 @@ $(document).ready(function() {
 			$('.bootbox-body').append('<input type="text" id="datepicker">');
 
 			var picker= '';
-				picker+='<p id="jqueryExample">';
+				// picker+='<p id="datepair">';
 				picker+='<input type="text" class="date start">'
-				picker+='<input type="text" class="time start">'
+				picker+='<input type="text" class="time-start">'
 				picker+='<input type="text" class="time end">'
-				picker+='<input type="text" class="date end"></p>'
+				// picker+='<input type="text" class="date end"></p>'
+			
 			$('.bootbox-body').append(picker);
 
-			$('#jqueryExample .time').datepicker({
-		        'showDuration': true,
-		        'timeFormat': 'g:ia'
-		    });
+			$('.time-start').timepicker();
 
-		    $('#jqueryExample .date').datepicker({
-		        'format': 'm/d/yyyy',
-		        'autoclose': true
-		    });
+		    // $('#datepair .date').datepicker({
+		    //     'format': 'm/d/yyyy',
+		    //     'autoclose': true
+		    // });
+
 		    // initialize datepair
-		    $('#jqueryExample').datepair();
+		   $('#datepair').datepair();
 
 
 
