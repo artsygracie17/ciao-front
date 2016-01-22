@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=width-device-width, initial-scale=1">
         <title>Main</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/consolidated.css" rel="stylesheet">
-        <link rel="stylesheet" href="cs/jquery.range.css">
+        <link href="css/dropzone.css" rel="stylesheet">
 
+        <link href="css/consolidated.css" rel="stylesheet">
         
         <script src="js/jquery.min.js"></script>
         <script src="js/jquery.range.js"></script>
@@ -18,12 +18,19 @@
         <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
         <script src="js/bootstrap.min.js"></script>
-
+        <script src="js/dropzone.js"></script>
         <script src="js/bootbox.min.js"></script>
+        <script type="text/javascript" src="js/datepair.js"></script>
+        <script type="text/javascript" src="js/jquery.datepair.js"></script>
 
         <script src="js/main.js"></script>
 
         <script>
+
+          $(function() {
+            $( "#datepicker" ).datepicker();
+          });
+
           $(function() {
             $( "#age-range" ).slider({
               range: true,

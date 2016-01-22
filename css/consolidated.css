@@ -153,13 +153,12 @@ small {
     border-radius: 5px;
     margin: 10px;
     margin-bottom: 40px !important;
-}
-.input-group {
-    width: 300px;
 } 
-
 .event-description {
-    width: 500px;
+    width: 400px;
+}
+.event-settings {
+  margin-top: 4px;
 }
 #filter {
     background-color: transparent;
